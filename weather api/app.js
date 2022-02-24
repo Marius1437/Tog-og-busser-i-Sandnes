@@ -11,7 +11,7 @@ weather.temperature = {
 }
 
 const KELVIN = 273;
-const key = "6d1dc1c8860b2a985c82dff1ad80b7c7";
+const key = "";
 
 if('geolocation' in navigator){
     navigator.geolocation.getCurrentPosition(setPosition, showError);
